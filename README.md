@@ -26,14 +26,14 @@ This repository provides everything needed to replicate the results reported in 
 ```
 # Requirements: 
 
-Core SE Calculator dependencies
+1. Core SE Calculator dependencies:
 numpy
 pandas
 matplotlib
 scipy
 python-docx
  
-7-Method Shuffle Tester dependencies
+2. 7-Method Shuffle Tester dependencies:
 scikit-learn
 gensim
 bertopic
@@ -43,7 +43,8 @@ transformers
 torch
 bert-score
 spacy
- 
+
+3. General Requirements: 
 spaCy language model (install separately after pip install):
 python -m spacy download en_core_web_sm
  
