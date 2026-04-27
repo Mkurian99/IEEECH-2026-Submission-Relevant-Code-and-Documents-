@@ -109,7 +109,6 @@ from motifs.lotr_motifs import motif_dict      # LOTR
 | Overlap | 50% |
 | Target windows | 120 |
 | Random seed | 42 |
-| Shuffle iterations | 30 (for Cohen's *d* computation) |
 | Sentence shuffling | Paragraph-level (`\n\n` splitting) |
 
 ---
@@ -129,17 +128,6 @@ Running the calculator produces the following files (named by input text):
 
 ---
 
-## Validation Criterion
-
-SE passes the shuffle test when:
-
-- The original heatmap displays localized motif clusters corresponding to identifiable narrative segments
-- The word-shuffled heatmap collapses to near-zero values (Σ → 0)
-- The sentence-shuffled heatmap shows randomly distributed peaks without coherent clustering
-
-The visual distinction between conditions constitutes the primary evidence, as argued in Section 3.4. Cohen's *d* is reported for the seven comparison methods only (Table 1); SE validation is heatmap-structural.
-
----
 
 ## Repository Links
 
