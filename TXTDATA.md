@@ -2,7 +2,7 @@ Genesis 1–3 (KJV)
 corpora/genesis_original.txt is included in this repository. It contains the King James Version of Genesis chapters 1–3 (~2,500 words), which is in the public domain.
 
 The Fellowship of the Ring (Tolkien)
-The Fellowship of the Ring is under copyright and cannot be distributed with this repository. You must obtain the text independently.
+
 
 Recommended source
 A plain-text version of The Fellowship of the Ring (Book 1) is available via the Internet Archive:
